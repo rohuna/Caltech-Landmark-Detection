@@ -1,5 +1,4 @@
 import * as ort from 'onnxruntime-web';
-import _ from 'lodash';
 
 export async function runModel(preprocessedData: any): Promise<[any, number]> {
   
