@@ -11,10 +11,11 @@ const Home: NextPage = () => {
       <Head>
         <title>Caltech Landmarks Detection</title>
       </Head>
-
-        <h1>
+      <div className = {styles.alignCenter}>
+        <h1 className = {styles.title}>
         Caltech Landmarks Detection
         </h1>
+      </div>
 
       <InputAndInference/>
     </div>

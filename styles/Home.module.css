@@ -5,3 +5,13 @@
 #imgDisplay {
   width: 60%
 }
+
+.container {
+  width: 80%;
+  margin: 25px 10%;
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+}
